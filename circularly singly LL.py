@@ -16,7 +16,7 @@ class CircularlyLinkedList:
         prev = self.head
         flag = self.head
         while temp != flag:
-            print ( temp.data )
+            print (temp.data)
             temp = temp.next
         return
 
